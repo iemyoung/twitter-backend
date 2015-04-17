@@ -1,0 +1,33 @@
+{
+  "name": "Twitter-hapi-mongo-backend",
+  "version": "0.0.1",
+  "description": "built twitter backend with hapi, mongodb, joi, yar etc ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhyoungyang/twitter-backend.git"
+  },
+  "keywords": [
+    "twitter",
+    "hapi",
+    "mongodb",
+    "joi",
+    "yar"
+  ],
+  "author": "yang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhyoungyang/twitter-backend/issues"
+  },
+  "homepage": "https://github.com/yhyoungyang/twitter-backend",
+  "dependencies": {
+    "bcrypt": "^0.8.2",
+    "hapi": "^8.4.0",
+    "hapi-mongodb": "^3.0.0",
+    "joi": "^6.2.0",
+    "yar": "^3.0.3"
+  }
+}
