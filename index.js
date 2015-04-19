@@ -9,7 +9,7 @@ server.connection({
   }
 });
 
-var plugins = [
+var plugins = [ // if register and "url" are both keys why is register NOT in ""? 
   { register: require('./routes/user.js') }, //is "register" a key by convention? 
   { register: require('hapi-mongodb'),
     options: {
