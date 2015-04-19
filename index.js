@@ -5,6 +5,8 @@ server.connection({
   host: '0.0.0.0',
   port: process.env.PORT || 3000, 
   routes: {
+    // headers: ["Access-Control-Allow-Credentials"],
+    // credentials: true
     cors: true
   }
 });
